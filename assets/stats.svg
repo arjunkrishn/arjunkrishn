@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#000">
+  <rect x="0" y="0" width="360" height="220" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="20" y="32" font-size="13" font-weight="700" letter-spacing="2">GITHUB STATS</text>
+  <line x1="20" y1="44" x2="340" y2="44" stroke="#000" stroke-width="0.6"/>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.2s" fill="freeze"/>
+    <text x="20" y="72">TOTAL STARS</text>
+    <text x="340" y="72" text-anchor="end">4</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze"/>
+    <text x="20" y="102">2026 COMMITS</text>
+    <text x="340" y="102" text-anchor="end">345</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.6s" fill="freeze"/>
+    <text x="20" y="132">TOTAL PULL REQUESTS</text>
+    <text x="340" y="132" text-anchor="end">2</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
+    <text x="20" y="162">TOTAL ISSUES</text>
+    <text x="340" y="162" text-anchor="end">0</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.0s" fill="freeze"/>
+    <text x="20" y="192">CONTRIBUTED TO</text>
+    <text x="340" y="192" text-anchor="end">25</text>
+  </g>
+</svg>

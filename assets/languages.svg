@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#000">
+  <rect x="0" y="0" width="360" height="220" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="20" y="32" font-size="13" font-weight="700" letter-spacing="2">LANGUAGES BY REPOSITORY</text>
+  <line x1="20" y1="44" x2="340" y2="44" stroke="#000" stroke-width="0.6"/>
+
+  <text x="20" y="68">JAVASCRIPT</text>
+  <rect x="140" y="58" width="0" height="12" fill="#000">
+    <animate attributeName="width" from="0" to="192" dur="1s" begin="0.2s" fill="freeze"/>
+  </rect>
+  <rect x="332" y="58" width="8" height="12" fill="#fff" stroke="#000" stroke-width="0.6"/>
+
+  <text x="20" y="98">TYPESCRIPT</text>
+  <rect x="140" y="88" width="0" height="12" fill="#000">
+    <animate attributeName="width" from="0" to="144" dur="1s" begin="0.3s" fill="freeze"/>
+  </rect>
+  <rect x="284" y="88" width="56" height="12" fill="#fff" stroke="#000" stroke-width="0.6"/>
+
+  <text x="20" y="128">HTML</text>
+  <rect x="140" y="118" width="0" height="12" fill="#000">
+    <animate attributeName="width" from="0" to="120" dur="1s" begin="0.4s" fill="freeze"/>
+  </rect>
+  <rect x="260" y="118" width="80" height="12" fill="#fff" stroke="#000" stroke-width="0.6"/>
+
+  <text x="20" y="158">SWIFT</text>
+  <rect x="140" y="148" width="0" height="12" fill="#000">
+    <animate attributeName="width" from="0" to="80" dur="1s" begin="0.5s" fill="freeze"/>
+  </rect>
+  <rect x="220" y="148" width="120" height="12" fill="#fff" stroke="#000" stroke-width="0.6"/>
+
+  <text x="20" y="188">PYTHON</text>
+  <rect x="140" y="178" width="0" height="12" fill="#000">
+    <animate attributeName="width" from="0" to="56" dur="1s" begin="0.6s" fill="freeze"/>
+  </rect>
+  <rect x="196" y="178" width="144" height="12" fill="#fff" stroke="#000" stroke-width="0.6"/>
+</svg>
