@@ -1,0 +1,116 @@
+<svg width="1080" height="640" viewBox="0 0 1080 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="640" fill="#ffffff"/>
+
+  <!-- Top bar -->
+  <text x="24" y="30" font-size="11" letter-spacing="2" fill="#111111" font-weight="600">SYSTEM MAP &#8212; SECURITY &amp; TOOLING PIPELINE</text>
+  <text x="1056" y="30" font-size="11" letter-spacing="2" fill="#111111" text-anchor="end" font-weight="600">FIG. 01</text>
+  <line x1="24" y1="42" x2="1056" y2="42" stroke="#111111" stroke-width="1"/>
+
+  <!-- Connecting Lines from Center (540, 320) -->
+  <g>
+    <line x1="540" y1="320" x2="270" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="360" cy="193" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="540" y1="320" x2="540" y2="100" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="540" cy="200" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="540" y1="320" x2="780" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="700" cy="203" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="540" y1="320" x2="830" y2="320" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="700" cy="320" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="540" y1="320" x2="780" y2="480" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="700" cy="427" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="540" y1="320" x2="540" y2="520" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="540" cy="430" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="540" y1="320" x2="290" y2="480" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <circle cx="370" cy="428" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Center Node (ARJUN.SEC) -->
+  <g>
+    <rect x="420" y="280" width="240" height="80" fill="#ffffff" stroke="#111111" stroke-width="2" rx="2">
+      <animate attributeName="stroke" values="#111111;#10b981;#111111" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="540" y="313" font-size="16" fill="#111111" text-anchor="middle" font-weight="700" letter-spacing="1">ARJUN.SEC</text>
+    <text x="540" y="336" font-size="11" fill="#555555" text-anchor="middle">one-person security build pipeline</text>
+  </g>
+
+  <!-- Node 1: FortiGate Ops -->
+  <g>
+    <rect x="40" y="60" width="240" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="55" y="88" font-size="13.5" fill="#111111" font-weight="700">fortigate ops</text>
+    <text x="55" y="106" font-size="10.5" fill="#555555">firewall &#183; IPsec VPN &#183; NAT / VLAN</text>
+  </g>
+
+  <!-- Node 2: Fake Job Detector -->
+  <g>
+    <rect x="400" y="30" width="280" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="415" y="58" font-size="13.5" fill="#111111" font-weight="700">fake job detector</text>
+    <text x="415" y="76" font-size="10.5" fill="#555555">ML &#183; NLP &#183; TF-IDF &#183; Scikit-learn</text>
+  </g>
+
+  <!-- Node 3: Vuln Scanner -->
+  <g>
+    <rect x="780" y="60" width="260" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="795" y="88" font-size="13.5" fill="#111111" font-weight="700">vuln scanner</text>
+    <text x="795" y="106" font-size="10.5" fill="#555555">python &#183; nmap &#183; socket programming</text>
+  </g>
+
+  <!-- Node 4: Security Certifications -->
+  <g>
+    <rect x="830" y="285" width="220" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="845" y="313" font-size="13.5" fill="#111111" font-weight="700">security certs</text>
+    <text x="845" y="331" font-size="10.5" fill="#555555">8 certs &#183; IBM &#183; Oracle Cloud</text>
+  </g>
+
+  <!-- Node 5: AI Threat Detection -->
+  <g>
+    <rect x="780" y="480" width="260" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="795" y="508" font-size="13.5" fill="#111111" font-weight="700">ai threat detection</text>
+    <text x="795" y="526" font-size="10.5" fill="#555555">anomaly detect &#183; streamlit &#183; ML</text>
+  </g>
+
+  <!-- Node 6: Traffic Analyzer -->
+  <g>
+    <rect x="400" y="520" width="280" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="415" y="548" font-size="13.5" fill="#111111" font-weight="700">traffic analyzer</text>
+    <text x="415" y="566" font-size="10.5" fill="#555555">scapy &#183; wireshark &#183; TCP/IP &#183; python</text>
+  </g>
+
+  <!-- Node 7: SOC Monitoring -->
+  <g>
+    <rect x="40" y="480" width="250" height="70" fill="#ffffff" stroke="#111111" stroke-width="1.2" rx="2"/>
+    <text x="55" y="508" font-size="13.5" fill="#111111" font-weight="700">soc monitoring</text>
+    <text x="55" y="526" font-size="10.5" fill="#555555">log analysis &#183; IPS &#183; web filtering</text>
+  </g>
+
+  <!-- Bottom Bar -->
+  <text x="24" y="605" font-size="10.5" letter-spacing="1.5" fill="#111111" font-weight="600">NETWORK SECURITY &amp; FORTIGATE FIREWALLS</text>
+  <text x="1056" y="605" font-size="10.5" letter-spacing="1.5" fill="#111111" text-anchor="end" font-weight="600">AI &amp; PYTHON SECURITY TOOLING</text>
+  <line x1="24" y1="620" x2="1056" y2="620" stroke="#111111" stroke-width="1"/>
+</svg>
