@@ -13,91 +13,52 @@
   <text x="1056" y="30" font-size="11" letter-spacing="2" fill="#111111" text-anchor="end" font-weight="600">FIG. 01</text>
   <line x1="24" y1="42" x2="1056" y2="42" stroke="#111111" stroke-width="1"/>
 
-  <!-- Connecting Lines from Center (540, 320) -->
+  <!-- Connecting Lines & Physically Moving Green Data Packets -->
   <g>
     <!-- Line 1: FortiGate Ops (270, 130) -->
     <line x1="540" y1="320" x2="270" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;270" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;130" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;270" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;130" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle r="5" fill="#10b981">
+      <animate attributeName="cx" values="540;270" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="320;130" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Line 2: Fake Job Detector (540, 100) -->
     <line x1="540" y1="320" x2="540" y2="100" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle cx="540" r="4" fill="#10b981">
-      <animate attributeName="cy" values="320;100" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="540" r="4" fill="#10b981">
-      <animate attributeName="cy" values="320;100" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle cx="540" r="5" fill="#10b981">
+      <animate attributeName="cy" values="320;100" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Line 3: Vuln Scanner (780, 130) -->
     <line x1="540" y1="320" x2="780" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;780" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;130" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;780" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;130" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle r="5" fill="#10b981">
+      <animate attributeName="cx" values="540;780" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="320;130" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Line 4: Security Certs (830, 320) -->
     <line x1="540" y1="320" x2="830" y2="320" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle cy="320" r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;830" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cy="320" r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;830" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle cy="320" r="5" fill="#10b981">
+      <animate attributeName="cx" values="540;830" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Line 5: AI Threat Detection (780, 480) -->
     <line x1="540" y1="320" x2="780" y2="480" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;780" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;480" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;780" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;480" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle r="5" fill="#10b981">
+      <animate attributeName="cx" values="540;780" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="320;480" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Line 6: Traffic Analyzer (540, 520) -->
     <line x1="540" y1="320" x2="540" y2="520" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle cx="540" r="4" fill="#10b981">
-      <animate attributeName="cy" values="320;520" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="540" r="4" fill="#10b981">
-      <animate attributeName="cy" values="320;520" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle cx="540" r="5" fill="#10b981">
+      <animate attributeName="cy" values="320;520" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Line 7: SOC Monitoring (290, 480) -->
     <line x1="540" y1="320" x2="290" y2="480" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;290" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;480" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="4" fill="#10b981">
-      <animate attributeName="cx" values="540;290" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;480" dur="2s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <circle r="5" fill="#10b981">
+      <animate attributeName="cx" values="540;290" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="320;480" dur="1.8s" repeatCount="indefinite"/>
     </circle>
   </g>
 

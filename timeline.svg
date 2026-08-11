@@ -15,9 +15,15 @@
   <line x1="24" y1="46" x2="1056" y2="46" stroke="#111111" stroke-width="1"/>
 
   <!-- Timeline Main Axis Line -->
-  <line x1="60" y1="130" x2="1020" y2="130" stroke="#111111" stroke-width="2">
-    <animate attributeName="stroke" values="#111111;#10b981;#111111" dur="3s" repeatCount="indefinite"/>
-  </line>
+  <line x1="60" y1="130" x2="1000" y2="130" stroke="#111111" stroke-width="2"/>
+
+  <!-- Continuous Traveling Green Data Packets along Timeline Axis -->
+  <circle cy="130" r="5.5" fill="#10b981">
+    <animate attributeName="cx" values="60;1000" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="130" r="5.5" fill="#10b981">
+    <animate attributeName="cx" values="60;1000" dur="3.5s" begin="1.75s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- Event 1: 2023 -->
   <g>
