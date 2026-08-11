@@ -1,49 +1,49 @@
 <div align="center">
 
-<img src="./banner.svg?v=4" width="100%" alt="Arjun Krishna B — Cybersecurity Analyst" />
+<img src="./banner.svg?v=5" width="100%" alt="Arjun Krishna B — Cybersecurity Analyst" />
 
 </div>
 
 <div align="center">
 
-<a href="https://arjunportfolio.super.site" target="_blank" rel="noopener noreferrer">`PORTFOLIO`</a> &nbsp;·&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer">`RESUME`</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/arjunn100" target="_blank" rel="noopener noreferrer">`LINKEDIN`</a> &nbsp;·&nbsp; <a href="https://github.com/arjunkrishn" target="_blank" rel="noopener noreferrer">`GITHUB`</a> &nbsp;·&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer">`EMAIL`</a>
+<a href="https://arjunportfolio.super.site" target="_blank" rel="noopener noreferrer"><b>PORTFOLIO</b></a> &nbsp;·&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer"><b>RESUME</b></a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/arjunn100" target="_blank" rel="noopener noreferrer"><b>LINKEDIN</b></a> &nbsp;·&nbsp; <a href="https://github.com/arjunkrishn" target="_blank" rel="noopener noreferrer"><b>GITHUB</b></a> &nbsp;·&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer"><b>EMAIL</b></a>
 
-</div>
-
-<br/>
-
-<div align="center">
-<img src="./whoami.svg?v=4" width="100%" alt="01 WHOAMI — Overview & Status" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./systemmap.svg?v=4" width="100%" alt="System Map — Security & Tooling Pipeline" />
+<img src="./whoami.svg?v=5" width="100%" alt="01 WHOAMI — Overview & Status" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./projects.svg?v=4" width="100%" alt="03 PROJECTS — Featured Security Tooling" />
+<img src="./systemmap.svg?v=5" width="100%" alt="System Map — Security & Tooling Pipeline" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./telemetry.svg?v=4" width="100%" alt="04 TELEMETRY — Skill Distribution & Growth" />
+<img src="./projects.svg?v=5" width="100%" alt="03 PROJECTS — Featured Security Tooling" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./timeline.svg?v=4" width="100%" alt="05 THE ROUTE — Career & Education Timeline" />
+<img src="./telemetry.svg?v=5" width="100%" alt="04 TELEMETRY — Skill Distribution & Growth" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./stack_certs.svg?v=4" width="100%" alt="06 STACK & 07 CERTIFICATIONS — Technical Competencies & Badges" />
+<img src="./timeline.svg?v=5" width="100%" alt="05 THE ROUTE — Career & Education Timeline" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="./stack_certs.svg?v=5" width="100%" alt="06 STACK & 07 CERTIFICATIONS — Technical Competencies & Badges" />
 </div>
 
 <br/>
