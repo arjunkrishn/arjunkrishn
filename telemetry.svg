@@ -1,97 +1,72 @@
 <svg viewBox="0 0 1080 440" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
-  <defs>
-    <style>
-      .bg { fill: #ffffff; }
-      .text-main { fill: #111111; }
-      .text-sub { fill: #555555; }
-      .border-line { stroke: #111111; stroke-width: 1; }
-      .chart-line { stroke: #111111; stroke-width: 2; fill: none; }
-      
-      /* Robust CSS Animations using transform: scaleX() and opacity */
-      @keyframes barPulse {
-        0%, 100% { transform: scaleX(1); opacity: 1; fill: #111111; }
-        50% { transform: scaleX(0.88); opacity: 0.7; fill: #10b981; }
-      }
-
-      @keyframes dotPulse {
-        0%, 100% { r: 4px; fill: #111111; opacity: 1; }
-        50% { r: 7px; fill: #10b981; opacity: 0.8; }
-      }
-
-      @keyframes lineGlow {
-        0%, 100% { stroke: #111111; stroke-width: 2; }
-        50% { stroke: #10b981; stroke-width: 2.5; }
-      }
-
-      .bar-anim-1 { transform-origin: 24px 93px;  animation: barPulse 3.5s infinite ease-in-out; }
-      .bar-anim-2 { transform-origin: 24px 139px; animation: barPulse 3.5s infinite ease-in-out 0.4s; }
-      .bar-anim-3 { transform-origin: 24px 185px; animation: barPulse 3.5s infinite ease-in-out 0.8s; }
-      .bar-anim-4 { transform-origin: 24px 231px; animation: barPulse 3.5s infinite ease-in-out 1.2s; }
-      .bar-anim-5 { transform-origin: 24px 277px; animation: barPulse 3.5s infinite ease-in-out 1.6s; }
-
-      .chart-path-anim {
-        animation: lineGlow 3s infinite ease-in-out;
-      }
-
-      .chart-dot-active {
-        animation: dotPulse 2s infinite ease-in-out;
-      }
-    </style>
-  </defs>
-
   <!-- Background -->
-  <rect width="1080" height="440" class="bg"/>
+  <rect width="1080" height="440" fill="#ffffff"/>
 
   <!-- Section Header -->
-  <text x="24" y="34" font-size="22" class="text-main" font-weight="700">04</text>
-  <text x="70" y="34" font-size="13" class="text-main" font-weight="700" letter-spacing="2">TELEMETRY</text>
-  <text x="1056" y="34" font-size="12" class="text-sub" text-anchor="end">~/04-telemetry</text>
-  <line x1="24" y1="46" x2="1056" y2="46" class="border-line"/>
+  <text x="24" y="34" font-size="22" fill="#111111" font-weight="700">04</text>
+  <text x="70" y="34" font-size="13" fill="#111111" font-weight="700" letter-spacing="2">TELEMETRY</text>
+  <text x="1056" y="34" font-size="12" fill="#555555" text-anchor="end">~/04-telemetry</text>
+  <line x1="24" y1="46" x2="1056" y2="46" stroke="#111111" stroke-width="1"/>
 
-  <!-- Left: Skill Distribution -->
-  <g font-size="12" class="text-main">
+  <!-- Left: Skill Distribution Bars with SMIL infinite shimmer -->
+  <g font-size="12" fill="#111111">
     <text x="24" y="78" font-weight="600">python &amp; security automation</text>
-    <rect x="24" y="86" width="340" height="14" fill="#111111" class="bar-anim-1"/>
+    <rect x="24" y="86" width="340" height="14" fill="#111111">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
     <text x="374" y="98" font-weight="700">34%</text>
 
     <text x="24" y="124" font-weight="600">fortigate &amp; network security</text>
-    <rect x="24" y="132" width="280" height="14" fill="#111111" class="bar-anim-2"/>
+    <rect x="24" y="132" width="280" height="14" fill="#111111">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
     <text x="314" y="144" font-weight="700">28%</text>
 
     <text x="24" y="170" font-weight="600">machine learning &amp; nlp threat models</text>
-    <rect x="24" y="178" width="200" height="14" fill="#111111" class="bar-anim-3"/>
+    <rect x="24" y="178" width="200" height="14" fill="#111111">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
     <text x="234" y="190" font-weight="700">20%</text>
 
     <text x="24" y="216" font-weight="600">protocols &#8212; TCP/IP / IPsec VPN / VLAN</text>
-    <rect x="24" y="224" width="120" height="14" fill="#111111" class="bar-anim-4"/>
+    <rect x="24" y="224" width="120" height="14" fill="#111111">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
     <text x="154" y="236" font-weight="700">12%</text>
 
     <text x="24" y="262" font-weight="600">linux, wireshark &amp; nmap</text>
-    <rect x="24" y="270" width="60" height="14" fill="#111111" class="bar-anim-5"/>
+    <rect x="24" y="270" width="60" height="14" fill="#111111">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
     <text x="94" y="282" font-weight="700">6%</text>
   </g>
 
   <line x1="480" y1="60" x2="480" y2="340" stroke="#e5e7eb" stroke-width="1"/>
 
   <!-- Right: Skill Growth Line Chart -->
-  <g class="text-main">
+  <g fill="#111111">
     <text x="520" y="70" font-size="11" letter-spacing="1.5" font-weight="700">SECURITY SKILL GROWTH &#183; 2023 &#8594; 2026</text>
 
-    <line x1="520" y1="230" x2="1040" y2="230" class="border-line"/>
-    <line x1="520" y1="90" x2="520" y2="230" class="border-line"/>
+    <line x1="520" y1="230" x2="1040" y2="230" stroke="#111111" stroke-width="1"/>
+    <line x1="520" y1="90" x2="520" y2="230" stroke="#111111" stroke-width="1"/>
 
     <!-- Axis Grid lines -->
     <line x1="520" y1="185" x2="1040" y2="185" stroke="#f0f0f0" stroke-width="1"/>
     <line x1="520" y1="140" x2="1040" y2="140" stroke="#f0f0f0" stroke-width="1"/>
 
     <!-- Trend line path with continuous glow animation -->
-    <path d="M 520 210 L 690 185 L 860 140 L 1010 100" class="chart-line chart-path-anim"/>
+    <path d="M 520 210 L 690 185 L 860 140 L 1010 100" fill="none" stroke="#111111" stroke-width="2">
+      <animate attributeName="stroke" values="#111111;#10b981;#111111" dur="3s" repeatCount="indefinite"/>
+    </path>
 
     <!-- Data points -->
     <circle cx="520" cy="210" r="4" fill="#111111"/>
     <circle cx="690" cy="185" r="4" fill="#111111"/>
     <circle cx="860" cy="140" r="4" fill="#111111"/>
-    <circle cx="1010" cy="100" class="chart-dot-active"/>
+    <circle cx="1010" cy="100" r="4" fill="#10b981">
+      <animate attributeName="r" values="4;7.5;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#10b981;#059669;#10b981" dur="2s" repeatCount="indefinite"/>
+    </circle>
 
     <text x="515" y="248" font-size="10.5" font-weight="700">'23</text>
     <text x="683" y="248" font-size="10.5" font-weight="700">'24</text>
@@ -102,13 +77,13 @@
   <line x1="24" y1="300" x2="450" y2="300" stroke="#e5e7eb" stroke-width="1"/>
 
   <!-- Bottom Stat Counters -->
-  <g font-size="30" class="text-main" font-weight="700">
+  <g font-size="30" fill="#111111" font-weight="700">
     <text x="520" y="315">8</text>
     <text x="660" y="315">4</text>
     <text x="800" y="315">2</text>
     <text x="940" y="315">4</text>
   </g>
-  <g font-size="10" class="text-main" letter-spacing="0.5" font-weight="700">
+  <g font-size="10" fill="#111111" letter-spacing="0.5" font-weight="700">
     <text x="520" y="331">CERTIFICATIONS</text>
     <text x="660" y="331">PROJECTS SHIPPED</text>
     <text x="800" y="331">INTERNSHIPS</text>
@@ -116,7 +91,7 @@
   </g>
 
   <!-- Bottom Border -->
-  <line x1="24" y1="365" x2="1056" y2="365" class="border-line"/>
-  <text x="24" y="390" font-size="10.5" class="text-main" font-weight="600">LANGUAGES: ENGLISH &#183; TAMIL &#183; HINDI &#183; MALAYALAM</text>
-  <text x="1056" y="390" font-size="10.5" class="text-main" text-anchor="end" font-weight="600">BCA (AIML) GRADUATE &#183; VIT VELLORE</text>
+  <line x1="24" y1="365" x2="1056" y2="365" stroke="#111111" stroke-width="1"/>
+  <text x="24" y="390" font-size="10.5" fill="#111111" font-weight="600">LANGUAGES: ENGLISH &#183; TAMIL &#183; HINDI &#183; MALAYALAM</text>
+  <text x="1056" y="390" font-size="10.5" fill="#111111" text-anchor="end" font-weight="600">BCA (AIML) GRADUATE &#183; VIT VELLORE</text>
 </svg>
