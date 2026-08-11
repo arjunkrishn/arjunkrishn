@@ -2,10 +2,28 @@
   <defs>
     <style>
       text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
-    </style>
 
-    <!-- Path for Snake Loop around ARJUN -->
-    <path id="snakeTrack" d="M 160,145 C 160,70 350,70 540,70 C 730,70 920,70 920,145 C 920,220 730,220 540,220 C 350,220 160,220 160,145 Z" />
+      @keyframes snakeOrbit {
+        from { stroke-dashoffset: 64px; }
+        to { stroke-dashoffset: 0px; }
+      }
+
+      @keyframes textGlow {
+        0%, 100% { fill: #111111; }
+        50%      { fill: #059669; }
+      }
+
+      .snake-orbit-stream {
+        stroke: #10b981;
+        stroke-width: 3.5;
+        stroke-dasharray: 16 16;
+        animation: snakeOrbit 1.2s infinite linear;
+      }
+
+      .arjun-header {
+        animation: textGlow 3s infinite ease-in-out;
+      }
+    </style>
   </defs>
 
   <!-- Background -->
@@ -19,81 +37,38 @@
   </text>
   <line x1="24" y1="46" x2="1056" y2="46" stroke="#111111" stroke-width="1"/>
 
-  <!-- Flowing Green Circuit Orbit Track around ARJUN -->
-  <path d="M 160,145 C 160,70 350,70 540,70 C 730,70 920,70 920,145 C 920,220 730,220 540,220 C 350,220 160,220 160,145 Z" 
-        fill="none" stroke="#10b981" stroke-width="2.5" stroke-dasharray="10 10" opacity="0.7">
-    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.5s" repeatCount="indefinite"/>
+  <!-- Background Matrix Accent Grid -->
+  <g transform="translate(64, 62)" opacity="0.2">
+    <g fill="#10b981">
+      <rect x="0" y="0" width="10" height="10" rx="2"/><rect x="20" y="0" width="10" height="10" rx="2"/><rect x="40" y="0" width="10" height="10" rx="2"/><rect x="60" y="0" width="10" height="10" rx="2"/><rect x="80" y="0" width="10" height="10" rx="2"/><rect x="100" y="0" width="10" height="10" rx="2"/><rect x="120" y="0" width="10" height="10" rx="2"/><rect x="140" y="0" width="10" height="10" rx="2"/><rect x="160" y="0" width="10" height="10" rx="2"/><rect x="180" y="0" width="10" height="10" rx="2"/><rect x="200" y="0" width="10" height="10" rx="2"/><rect x="220" y="0" width="10" height="10" rx="2"/><rect x="240" y="0" width="10" height="10" rx="2"/><rect x="260" y="0" width="10" height="10" rx="2"/><rect x="280" y="0" width="10" height="10" rx="2"/><rect x="300" y="0" width="10" height="10" rx="2"/><rect x="320" y="0" width="10" height="10" rx="2"/><rect x="340" y="0" width="10" height="10" rx="2"/><rect x="360" y="0" width="10" height="10" rx="2"/><rect x="380" y="0" width="10" height="10" rx="2"/><rect x="400" y="0" width="10" height="10" rx="2"/><rect x="420" y="0" width="10" height="10" rx="2"/><rect x="440" y="0" width="10" height="10" rx="2"/><rect x="460" y="0" width="10" height="10" rx="2"/><rect x="480" y="0" width="10" height="10" rx="2"/><rect x="500" y="0" width="10" height="10" rx="2"/><rect x="520" y="0" width="10" height="10" rx="2"/><rect x="540" y="0" width="10" height="10" rx="2"/><rect x="560" y="0" width="10" height="10" rx="2"/><rect x="580" y="0" width="10" height="10" rx="2"/><rect x="600" y="0" width="10" height="10" rx="2"/><rect x="620" y="0" width="10" height="10" rx="2"/><rect x="640" y="0" width="10" height="10" rx="2"/><rect x="660" y="0" width="10" height="10" rx="2"/><rect x="680" y="0" width="10" height="10" rx="2"/><rect x="700" y="0" width="10" height="10" rx="2"/><rect x="720" y="0" width="10" height="10" rx="2"/><rect x="740" y="0" width="10" height="10" rx="2"/><rect x="760" y="0" width="10" height="10" rx="2"/><rect x="780" y="0" width="10" height="10" rx="2"/><rect x="800" y="0" width="10" height="10" rx="2"/><rect x="820" y="0" width="10" height="10" rx="2"/><rect x="840" y="0" width="10" height="10" rx="2"/><rect x="860" y="0" width="10" height="10" rx="2"/><rect x="880" y="0" width="10" height="10" rx="2"/><rect x="900" y="0" width="10" height="10" rx="2"/><rect x="920" y="0" width="10" height="10" rx="2"/><rect x="940" y="0" width="10" height="10" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Base Solid Orbit Track -->
+  <path d="M 160,145 C 160,60 350,60 540,60 C 730,60 920,60 920,145 C 920,230 730,230 540,230 C 350,230 160,230 160,145 Z" 
+        fill="none" stroke="#111111" stroke-width="1" opacity="0.3"/>
+
+  <!-- Bulletproof Dual-Engine Flowing Green Snake Stream around ARJUN -->
+  <path d="M 160,145 C 160,60 350,60 540,60 C 730,60 920,60 920,145 C 920,230 730,230 540,230 C 350,230 160,230 160,145 Z" 
+        fill="none" class="snake-orbit-stream">
+    <animate attributeName="stroke-dashoffset" from="64" to="0" dur="1.2s" repeatCount="indefinite"/>
   </path>
 
-  <!-- Centerpiece: Bold High-Contrast Text "ARJUN KRISHNA B" (Guaranteed 100% Visible) -->
+  <!-- Center Terminal Box -->
+  <rect x="340" y="90" width="400" height="110" fill="#ffffff" stroke="#111111" stroke-width="2" rx="4"/>
+
+  <!-- Crisp Vector Text: ARJUN KRISHNA B -->
   <g text-anchor="middle">
-    <text x="540" y="145" font-size="64" font-weight="900" fill="#111111" letter-spacing="10">ARJUN</text>
-    <text x="540" y="178" font-size="14" font-weight="700" fill="#059669" letter-spacing="4">KRISHNA B</text>
-    <text x="540" y="198" font-size="11" font-weight="600" fill="#555555" letter-spacing="2">CYBERSECURITY ANALYST &#183; 345 COMMITS IN 2026</text>
+    <text x="540" y="138" font-size="44" font-weight="900" fill="#111111" letter-spacing="8" class="arjun-header">ARJUN</text>
+    <text x="540" y="164" font-size="13.5" font-weight="700" fill="#059669" letter-spacing="3">KRISHNA B</text>
+    <text x="540" y="184" font-size="10.5" font-weight="600" fill="#555555" letter-spacing="1.5">CYBERSECURITY ANALYST &#183; 345 COMMITS IN 2026</text>
   </g>
 
-  <!-- Smooth Multi-Segment Snake Slithering Around ARJUN along the Loop Track -->
-  <g>
-    <!-- Tail Segments -->
-    <circle r="3.0" fill="#a7f3d0">
-      <animateMotion dur="5s" begin="-0.45s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="3.5" fill="#6ee7b7">
-      <animateMotion dur="5s" begin="-0.40s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="4.0" fill="#34d399">
-      <animateMotion dur="5s" begin="-0.35s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="4.5" fill="#10b981">
-      <animateMotion dur="5s" begin="-0.30s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="5.0" fill="#059669">
-      <animateMotion dur="5s" begin="-0.25s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="5.5" fill="#047857">
-      <animateMotion dur="5s" begin="-0.20s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="6.0" fill="#065f46">
-      <animateMotion dur="5s" begin="-0.15s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <circle r="6.5" fill="#10b981">
-      <animateMotion dur="5s" begin="-0.08s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-
-    <!-- Snake Head with Glowing Eye -->
-    <circle r="7.5" fill="#10b981">
-      <animateMotion dur="5s" begin="0s" repeatCount="indefinite">
-        <mpath href="#snakeTrack"/>
-      </animateMotion>
-    </circle>
-  </g>
-
-  <!-- Orbit Accent Nodes -->
-  <circle cx="160" cy="145" r="4" fill="#10b981"/>
-  <circle cx="920" cy="145" r="4" fill="#10b981"/>
+  <!-- Snake Head Nodes -->
+  <circle cx="160" cy="145" r="5" fill="#10b981"/>
+  <circle cx="920" cy="145" r="5" fill="#10b981"/>
+  <circle cx="540" cy="60" r="5" fill="#10b981"/>
+  <circle cx="540" cy="230" r="5" fill="#10b981"/>
 
   <!-- Bottom Bar -->
   <text x="24" y="250" font-size="10.5" letter-spacing="1.5" fill="#111111" font-weight="600">ARJUN SECURITY MATRIX &#8212; GITHUB ACTIVITY CIRCUIT</text>
