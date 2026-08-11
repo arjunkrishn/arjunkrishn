@@ -49,6 +49,12 @@
 <br/>
 
 <div align="center">
+<img src="./contributions.svg?v=10" width="100%" alt="08 CONTRIBUTIONS — GitHub Activity Snake" />
+</div>
+
+<br/>
+
+<div align="center">
 
 `EN` `TA` `HI` `ML` &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer">arjunkb45@gmail.com</a> &nbsp;&nbsp;·&nbsp;&nbsp; Kochi, Kerala, India
 
