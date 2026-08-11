@@ -1,4 +1,10 @@
-<svg viewBox="0 0 1080 300" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+<svg width="1080" height="300" viewBox="0 0 1080 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    </style>
+  </defs>
+
   <!-- Background -->
   <rect width="1080" height="300" fill="#ffffff"/>
 
@@ -28,7 +34,6 @@
     <text x="24" y="215" font-weight="700" letter-spacing="1">STATUS</text>
     <circle cx="150" cy="211" r="4" fill="#10b981">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite"/>
     </circle>
     <text x="164" y="215">open to Cybersecurity Analyst &#183; SOC Analyst &#183; Network Security Engineer roles</text>
     <line x1="24" y1="230" x2="1056" y2="230" stroke="#e0e0e0" stroke-width="1"/>

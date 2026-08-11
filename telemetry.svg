@@ -1,4 +1,10 @@
-<svg viewBox="0 0 1080 440" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+<svg width="1080" height="440" viewBox="0 0 1080 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    </style>
+  </defs>
+
   <!-- Background -->
   <rect width="1080" height="440" fill="#ffffff"/>
 
@@ -8,7 +14,7 @@
   <text x="1056" y="34" font-size="12" fill="#555555" text-anchor="end">~/04-telemetry</text>
   <line x1="24" y1="46" x2="1056" y2="46" stroke="#111111" stroke-width="1"/>
 
-  <!-- Left: Skill Distribution Bars with SMIL infinite shimmer -->
+  <!-- Left: Skill Distribution Bars -->
   <g font-size="12" fill="#111111">
     <text x="24" y="78" font-weight="600">python &amp; security automation</text>
     <rect x="24" y="86" width="340" height="14" fill="#111111">
@@ -54,7 +60,7 @@
     <line x1="520" y1="185" x2="1040" y2="185" stroke="#f0f0f0" stroke-width="1"/>
     <line x1="520" y1="140" x2="1040" y2="140" stroke="#f0f0f0" stroke-width="1"/>
 
-    <!-- Trend line path with continuous glow animation -->
+    <!-- Trend line path -->
     <path d="M 520 210 L 690 185 L 860 140 L 1010 100" fill="none" stroke="#111111" stroke-width="2">
       <animate attributeName="stroke" values="#111111;#10b981;#111111" dur="3s" repeatCount="indefinite"/>
     </path>
@@ -64,8 +70,7 @@
     <circle cx="690" cy="185" r="4" fill="#111111"/>
     <circle cx="860" cy="140" r="4" fill="#111111"/>
     <circle cx="1010" cy="100" r="4" fill="#10b981">
-      <animate attributeName="r" values="4;7.5;4" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="fill" values="#10b981;#059669;#10b981" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
     </circle>
 
     <text x="515" y="248" font-size="10.5" font-weight="700">'23</text>
