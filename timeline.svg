@@ -2,6 +2,18 @@
   <defs>
     <style>
       text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+
+      @keyframes timelineFlow {
+        from { stroke-dashoffset: 32px; }
+        to { stroke-dashoffset: 0px; }
+      }
+
+      .active-timeline-flow {
+        stroke: #10b981;
+        stroke-width: 2.5;
+        stroke-dasharray: 8 8;
+        animation: timelineFlow 1.2s infinite linear;
+      }
     </style>
   </defs>
 
@@ -14,16 +26,13 @@
   <text x="1056" y="34" font-size="12" fill="#555555" text-anchor="end">~/05-journey</text>
   <line x1="24" y1="46" x2="1056" y2="46" stroke="#111111" stroke-width="1"/>
 
-  <!-- Timeline Main Axis Line -->
-  <line x1="60" y1="130" x2="1000" y2="130" stroke="#111111" stroke-width="2"/>
+  <!-- Base Solid Axis Line -->
+  <line x1="60" y1="130" x2="1000" y2="130" stroke="#111111" stroke-width="1"/>
 
-  <!-- Continuous Traveling Green Data Packets along Timeline Axis -->
-  <circle cy="130" r="5.5" fill="#10b981">
-    <animate attributeName="cx" values="60;1000" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cy="130" r="5.5" fill="#10b981">
-    <animate attributeName="cx" values="60;1000" dur="3.5s" begin="1.75s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Continuous Flowing Green Data Stream along Timeline Axis -->
+  <line x1="60" y1="130" x2="1000" y2="130" class="active-timeline-flow">
+    <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </line>
 
   <!-- Event 1: 2023 -->
   <g>

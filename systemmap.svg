@@ -2,6 +2,27 @@
   <defs>
     <style>
       text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+      
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 32px; }
+        to { stroke-dashoffset: 0px; }
+      }
+
+      @keyframes pulseCenter {
+        0%, 100% { stroke: #111111; stroke-width: 2; }
+        50% { stroke: #10b981; stroke-width: 2.5; }
+      }
+
+      .active-data-line {
+        stroke: #10b981;
+        stroke-width: 2.5;
+        stroke-dasharray: 8 8;
+        animation: dashFlow 1.2s infinite linear;
+      }
+
+      .center-rect {
+        animation: pulseCenter 3s infinite ease-in-out;
+      }
     </style>
   </defs>
 
@@ -13,58 +34,47 @@
   <text x="1056" y="30" font-size="11" letter-spacing="2" fill="#111111" text-anchor="end" font-weight="600">FIG. 01</text>
   <line x1="24" y1="42" x2="1056" y2="42" stroke="#111111" stroke-width="1"/>
 
-  <!-- Connecting Lines & Physically Moving Green Data Packets -->
+  <!-- Connecting Lines with Dual-Engine (CSS + SMIL) Physically Flowing Green Data Streams -->
   <g>
     <!-- Line 1: FortiGate Ops (270, 130) -->
-    <line x1="540" y1="320" x2="270" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="5" fill="#10b981">
-      <animate attributeName="cx" values="540;270" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;130" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="270" y2="130" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
 
     <!-- Line 2: Fake Job Detector (540, 100) -->
-    <line x1="540" y1="320" x2="540" y2="100" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle cx="540" r="5" fill="#10b981">
-      <animate attributeName="cy" values="320;100" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="540" y2="100" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
 
     <!-- Line 3: Vuln Scanner (780, 130) -->
-    <line x1="540" y1="320" x2="780" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="5" fill="#10b981">
-      <animate attributeName="cx" values="540;780" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;130" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="780" y2="130" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
 
     <!-- Line 4: Security Certs (830, 320) -->
-    <line x1="540" y1="320" x2="830" y2="320" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle cy="320" r="5" fill="#10b981">
-      <animate attributeName="cx" values="540;830" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="830" y2="320" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
 
     <!-- Line 5: AI Threat Detection (780, 480) -->
-    <line x1="540" y1="320" x2="780" y2="480" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="5" fill="#10b981">
-      <animate attributeName="cx" values="540;780" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;480" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="780" y2="480" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
 
     <!-- Line 6: Traffic Analyzer (540, 520) -->
-    <line x1="540" y1="320" x2="540" y2="520" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle cx="540" r="5" fill="#10b981">
-      <animate attributeName="cy" values="320;520" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="540" y2="520" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
 
     <!-- Line 7: SOC Monitoring (290, 480) -->
-    <line x1="540" y1="320" x2="290" y2="480" stroke="#111111" stroke-width="1.2" stroke-dasharray="6 6"/>
-    <circle r="5" fill="#10b981">
-      <animate attributeName="cx" values="540;290" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="320;480" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="540" y1="320" x2="290" y2="480" class="active-data-line">
+      <animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.2s" repeatCount="indefinite"/>
+    </line>
   </g>
 
   <!-- Center Node (ARJUN.SEC) -->
   <g>
-    <rect x="420" y="280" width="240" height="80" fill="#ffffff" stroke="#111111" stroke-width="2" rx="2">
+    <rect x="420" y="280" width="240" height="80" fill="#ffffff" stroke="#111111" stroke-width="2" rx="2" class="center-rect">
       <animate attributeName="stroke" values="#111111;#10b981;#111111" dur="3s" repeatCount="indefinite"/>
     </rect>
     <text x="540" y="313" font-size="16" fill="#111111" text-anchor="middle" font-weight="700" letter-spacing="1">ARJUN.SEC</text>
