@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1080 300" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SF Mono', 'Courier New', Menlo, Consolas, monospace">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .text-main { fill: #111111; }
+      .text-sub { fill: #555555; }
+      .border-line { stroke: #111111; stroke-width: 1; }
+      .timeline-axis { stroke: #111111; stroke-width: 1.5; }
+      
+      /* Radar Radar Ping & Axis Animation */
+      @keyframes radarPulse {
+        0% { r: 6px; opacity: 1; stroke: #10b981; }
+        100% { r: 22px; opacity: 0; stroke: #10b981; stroke-width: 2px; }
+      }
+
+      @keyframes axisDraw {
+        from { stroke-dashoffset: 960; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      .radar-ring {
+        animation: radarPulse 2.2s infinite ease-out;
+      }
+
+      .axis-line {
+        stroke-dasharray: 960;
+        stroke-dashoffset: 0;
+        animation: axisDraw 1.6s ease-out forwards;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="300" class="bg"/>
+
+  <!-- Top bar -->
+  <text x="24" y="30" font-size="11" letter-spacing="2" class="text-main" font-weight="600">THE ROUTE SO FAR &#8212; CAREER &amp; EDUCATION</text>
+  <text x="1056" y="30" font-size="11" letter-spacing="2" class="text-main" text-anchor="end" font-weight="600">FIG. 03</text>
+  <line x1="24" y1="42" x2="1056" y2="42" class="border-line"/>
+
+  <!-- Timeline Main Axis -->
+  <line x1="60" y1="150" x2="1020" y2="150" class="timeline-axis axis-line"/>
+
+  <!-- Event 1: 2023 -->
+  <g>
+    <circle cx="100" cy="150" r="5" fill="#111111"/>
+    <text x="100" y="120" font-size="12" class="text-main" text-anchor="middle" font-weight="700">2023</text>
+    <text x="100" y="180" font-size="10.5" class="text-main" text-anchor="middle" font-weight="600">BCA (AIML)</text>
+    <text x="100" y="194" font-size="10.5" class="text-sub" text-anchor="middle">starts, VIT</text>
+  </g>
+
+  <!-- Event 2: 2025 -->
+  <g>
+    <circle cx="340" cy="150" r="5" fill="#111111"/>
+    <text x="340" y="120" font-size="12" class="text-main" text-anchor="middle" font-weight="700">2025</text>
+    <text x="340" y="180" font-size="10.5" class="text-main" text-anchor="middle" font-weight="600">Techgentsia</text>
+    <text x="340" y="194" font-size="10.5" class="text-sub" text-anchor="middle">web UI intern</text>
+  </g>
+
+  <!-- Event 3: 2026 Grad -->
+  <g>
+    <circle cx="580" cy="150" r="5" fill="#111111"/>
+    <text x="580" y="120" font-size="12" class="text-main" text-anchor="middle" font-weight="700">2026</text>
+    <text x="580" y="180" font-size="10.5" class="text-main" text-anchor="middle" font-weight="600">BCA (AIML)</text>
+    <text x="580" y="194" font-size="10.5" class="text-sub" text-anchor="middle">completed, VIT (7.67)</text>
+  </g>
+
+  <!-- Event 4: 2026 Secure Solutions -->
+  <g>
+    <circle cx="820" cy="150" r="5" fill="#111111"/>
+    <text x="820" y="120" font-size="12" class="text-main" text-anchor="middle" font-weight="700">2026</text>
+    <text x="820" y="180" font-size="10.5" class="text-main" text-anchor="middle" font-weight="600">Secure Solutions</text>
+    <text x="820" y="194" font-size="10.5" class="text-sub" text-anchor="middle">network security intern</text>
+  </g>
+
+  <!-- Event 5: NOW -->
+  <g>
+    <circle cx="1000" cy="150" r="6" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+    <circle cx="1000" cy="150" r="6" fill="none" class="radar-ring"/>
+    <text x="1000" y="120" font-size="12" fill="#059669" text-anchor="middle" font-weight="700">NOW</text>
+    <text x="1000" y="180" font-size="10.5" class="text-main" text-anchor="middle" font-weight="600">open to</text>
+    <text x="1000" y="194" font-size="10.5" class="text-main" text-anchor="middle" font-weight="600">analyst roles</text>
+  </g>
+
+  <!-- Bottom Details -->
+  <line x1="24" y1="230" x2="1056" y2="230" class="border-line"/>
+  <text x="24" y="255" font-size="10.5" class="text-main">
+    <tspan font-weight="700">2026</tspan> &#183; Secure Solutions &#183; Network Security Intern &#183; Kochi &#183; FortiGate firewalls, IPsec VPNs, IPS, log analysis
+  </text>
+  <text x="24" y="273" font-size="10.5" class="text-main">
+    <tspan font-weight="700">2025</tspan> &#183; Techgentsia Software Technologies &#183; Web UI Development Intern &#183; Infopark Pallipuram
+  </text>
+</svg>
