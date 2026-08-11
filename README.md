@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=14" width="100%" alt="Arjun Krishna B — Cybersecurity Analyst" />
+<img src="./banner.svg?v=15" width="100%" alt="Arjun Krishna B — Cybersecurity Analyst" />
 
 </div>
 
@@ -13,43 +13,43 @@
 <br/>
 
 <div align="center">
-<img src="./whoami.svg?v=14" width="100%" alt="01 WHOAMI — Overview & Status" />
+<img src="./whoami.svg?v=15" width="100%" alt="01 WHOAMI — Overview & Status" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./systemmap.svg?v=14" width="100%" alt="System Map — Security & Tooling Pipeline" />
+<img src="./systemmap.svg?v=15" width="100%" alt="System Map — Security & Tooling Pipeline" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./projects.svg?v=14" width="100%" alt="03 PROJECTS — Featured Security Tooling" />
+<img src="./projects.svg?v=15" width="100%" alt="03 PROJECTS — Featured Security Tooling" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./telemetry.svg?v=14" width="100%" alt="04 TELEMETRY — Skill Distribution & Growth" />
+<img src="./telemetry.svg?v=15" width="100%" alt="04 TELEMETRY — Skill Distribution & Growth" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./timeline.svg?v=14" width="100%" alt="05 THE ROUTE — Career & Education Timeline" />
+<img src="./timeline.svg?v=15" width="100%" alt="05 THE ROUTE — Career & Education Timeline" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./stack_certs.svg?v=14" width="100%" alt="06 STACK & 07 CERTIFICATIONS — Technical Competencies & Badges" />
+<img src="./stack_certs.svg?v=15" width="100%" alt="06 STACK & 07 CERTIFICATIONS — Technical Competencies & Badges" />
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./contributions.svg?v=14" width="100%" alt="08 CONTRIBUTIONS — Arjun Snake Circuit" />
+<img src="./contributions.svg?v=15" width="100%" alt="08 CONTRIBUTIONS — Live Arjun Snake Circuit" />
 </div>
 
 <br/>
