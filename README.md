@@ -1,27 +1,26 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=200&section=header&text=Arjun%20Krishna%20B&fontSize=48&fontColor=39FF14&animation=fadeIn&fontAlignY=38&desc=SOC%20Analyst%20%7C%20Cybersecurity%20Analyst%20%7C%20Network%20Security&descAlignY=58&descSize=18&descColor=39FF14" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0A0E27&height=200&section=header&text=Arjun%20Krishna%20B&fontSize=48&fontColor=00D9FF&animation=fadeIn&fontAlignY=38&desc=SOC%20Analyst%20%7C%20Cybersecurity%20Analyst%20%7C%20Network%20Security&descAlignY=58&descSize=18&descColor=00D9FF" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=39FF14&background=0D1117&center=true&vCenter=true&width=650&lines=%24+whoami;%3E+Cybersecurity+Graduate+%7C+SOC+%2F+Network+Security;%24+cat+skills.txt;%3E+FortiGate+%7C+IPSec+VPN+%7C+TCP-IP+%7C+Python;%24+echo+%24STATUS;%3E+Open+to+SOC+%26+Cybersecurity+Analyst+roles" alt="Typing SVG" />
-
-<br/>
-
-![Degree](https://img.shields.io/badge/BCA-AIML-39FF14?style=flat-square&labelColor=0D1117)
-![University](https://img.shields.io/badge/VIT-Vellore-39FF14?style=flat-square&labelColor=0D1117)
-![Location](https://img.shields.io/badge/Location-Cherthala,%20India-39FF14?style=flat-square&labelColor=0D1117)
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=00D9FF&background=0A0E27&center=true&vCenter=true&width=650&lines=%24+whoami;%3E+Cybersecurity+Graduate+%7C+SOC+%2F+Network+Security;%24+cat+skills.txt;%3E+FortiGate+%7C+IPSec+VPN+%7C+TCP-IP+%7C+Python;%24+echo+%24STATUS;%3E+Open+to+SOC+%26+Cybersecurity+Analyst+roles" alt="Typing SVG" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=39FF14&color=0D1117)](https://arjunportfolio.super.site)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=39FF14&color=0D1117)](https://linkedin.com/in/arjunn100)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=39FF14&color=0D1117)](mailto:arjunkb45@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=39FF14&color=0D1117)](https://github.com/arjunkrishn)
+![Degree](https://img.shields.io/badge/BCA-AIML-00D9FF?style=flat-square&labelColor=0A0E27)
+![University](https://img.shields.io/badge/VIT-Vellore-00D9FF?style=flat-square&labelColor=0A0E27)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=arjunkrishn&color=39FF14&style=flat-square&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/arjunkrishn?style=flat-square&color=39FF14&labelColor=0D1117)
-![Stars](https://img.shields.io/github/stars/arjunkrishn?style=flat-square&color=39FF14&labelColor=0D1117)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A0E27?style=for-the-badge&logo=vercel&logoColor=00D9FF&color=0A0E27)](https://arjunportfolio.super.site)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0E27?style=for-the-badge&logo=linkedin&logoColor=00D9FF&color=0A0E27)](https://linkedin.com/in/arjunn100)
+[![Email](https://img.shields.io/badge/Email-0A0E27?style=for-the-badge&logo=gmail&logoColor=00D9FF&color=0A0E27)](mailto:arjunkb45@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0A0E27?style=for-the-badge&logo=github&logoColor=00D9FF&color=0A0E27)](https://github.com/arjunkrishn)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=arjunkrishn&color=00D9FF&style=flat-square&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/arjunkrishn?style=flat-square&color=00D9FF&labelColor=0A0E27)
+![Stars](https://img.shields.io/github/stars/arjunkrishn?style=flat-square&color=00D9FF&labelColor=0A0E27)
 
 </div>
 
@@ -48,13 +47,13 @@ OPEN_TO   : SOC Analyst, Cybersecurity Analyst
 
 <div align="center">
 
-![FortiGate](https://img.shields.io/badge/FortiGate-39FF14?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
-![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
-![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
-![IPSec VPN](https://img.shields.io/badge/IPSec%20VPN-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
-![VLAN](https://img.shields.io/badge/VLAN-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
-![NAT](https://img.shields.io/badge/NAT-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)
+![FortiGate](https://img.shields.io/badge/FortiGate-00D9FF?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
+![Wireshark](https://img.shields.io/badge/Wireshark-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
+![Nmap](https://img.shields.io/badge/Nmap-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
+![IPSec VPN](https://img.shields.io/badge/IPSec%20VPN-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
+![VLAN](https://img.shields.io/badge/VLAN-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
+![NAT](https://img.shields.io/badge/NAT-0A0E27?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)
 
 </div>
 
@@ -64,11 +63,11 @@ OPEN_TO   : SOC Analyst, Cybersecurity Analyst
 
 <div align="center">
 
-![Network Security](https://img.shields.io/badge/Network%20Security-39FF14?style=flat-square&labelColor=0D1117)
-![SOC Fundamentals](https://img.shields.io/badge/SOC%20Fundamentals-39FF14?style=flat-square&labelColor=0D1117)
-![Threat Detection](https://img.shields.io/badge/Threat%20Detection-39FF14?style=flat-square&labelColor=0D1117)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-39FF14?style=flat-square&labelColor=0D1117)
-![NLP](https://img.shields.io/badge/NLP-39FF14?style=flat-square&labelColor=0D1117)
+![Network Security](https://img.shields.io/badge/Network%20Security-00D9FF?style=flat-square&labelColor=0A0E27)
+![SOC Fundamentals](https://img.shields.io/badge/SOC%20Fundamentals-00D9FF?style=flat-square&labelColor=0A0E27)
+![Threat Detection](https://img.shields.io/badge/Threat%20Detection-00D9FF?style=flat-square&labelColor=0A0E27)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-00D9FF?style=flat-square&labelColor=0A0E27)
+![NLP](https://img.shields.io/badge/NLP-00D9FF?style=flat-square&labelColor=0A0E27)
 
 </div>
 
@@ -178,7 +177,7 @@ Fraud detection system classifying job postings as genuine or fraudulent using N
 
 <div align="center">
 
-[![Education](https://img.shields.io/badge/BCA%20(AIML)%20—%20Vellore%20Institute%20of%20Technology-39FF14?style=for-the-badge&labelColor=0D1117)](#)
+[![Education](https://img.shields.io/badge/BCA%20(AIML)%20—%20Vellore%20Institute%20of%20Technology-00D9FF?style=for-the-badge&labelColor=0A0E27)](#)
 
 `08/2023 – 04/2026` · Vellore · CGPA 7.67/10
 
@@ -202,10 +201,10 @@ Fraud detection system classifying job postings as genuine or fraudulent using N
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arjunkrishn&show_icons=true&bg_color=0D1117&title_color=39FF14&text_color=C9D1D9&icon_color=39FF14&border_color=39FF14&hide_border=false" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=arjunkrishn&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&border=39FF14&hide_border=false" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=arjunkrishn&show_icons=true&bg_color=0A0E27&title_color=00D9FF&text_color=C9D6E3&icon_color=00D9FF&border_color=00D9FF&hide_border=false" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=arjunkrishn&background=0A0E27&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=C9D6E3&currStreakNum=C9D6E3&sideNums=C9D6E3&dates=C9D6E3&border=00D9FF&hide_border=false" width="49%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunkrishn&layout=compact&bg_color=0D1117&title_color=39FF14&text_color=C9D1D9&border_color=39FF14&hide_border=false" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunkrishn&layout=compact&bg_color=0A0E27&title_color=00D9FF&text_color=C9D6E3&border_color=00D9FF&hide_border=false" width="49%" />
 
 </div>
 
@@ -214,7 +213,7 @@ Fraud detection system classifying job postings as genuine or fraudulent using N
 ### `$ ./trophies.sh`
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=arjunkrishn&theme=onedark&row=1&column=7&title=39FF14&rank=39FF14&border=39FF14&background=0D1117&no-frame=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=arjunkrishn&row=1&column=7&title=00D9FF&rank=00D9FF&border=00D9FF&background=0A0E27&no-frame=true" />
 </div>
 
 ---
@@ -222,7 +221,7 @@ Fraud detection system classifying job postings as genuine or fraudulent using N
 ### `$ ./activity-graph.sh`
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arjunkrishn&bg_color=0D1117&color=39FF14&line=39FF14&point=C9D1D9&area=true&area_color=39FF14&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arjunkrishn&bg_color=0A0E27&color=00D9FF&line=00D9FF&point=C9D6E3&area=true&area_color=00D9FF&hide_border=true" width="100%" />
 </div>
 
 ---
@@ -274,15 +273,15 @@ currently:
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-39FF14?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=39FF14)](https://arjunportfolio.super.site)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-39FF14?style=for-the-badge&labelColor=0D1117&color=0D1117&logo=linkedin&logoColor=39FF14)](https://linkedin.com/in/arjunn100)
-[![Email](https://img.shields.io/badge/Email-39FF14?style=for-the-badge&labelColor=0D1117&color=0D1117&logo=gmail&logoColor=39FF14)](mailto:arjunkb45@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-39FF14?style=for-the-badge&labelColor=0D1117&color=0D1117&logo=github&logoColor=39FF14)](https://github.com/arjunkrishn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logoColor=00D9FF)](https://arjunportfolio.super.site)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-00D9FF?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logo=linkedin&logoColor=00D9FF)](https://linkedin.com/in/arjunn100)
+[![Email](https://img.shields.io/badge/Email-00D9FF?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logo=gmail&logoColor=00D9FF)](mailto:arjunkb45@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-00D9FF?style=for-the-badge&labelColor=0A0E27&color=0A0E27&logo=github&logoColor=00D9FF)](https://github.com/arjunkrishn)
 
 <br/>
 
 *"Every packet tells a story — I read the ones that matter."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0A0E27&height=120&section=footer" width="100%"/>
 
 </div>
