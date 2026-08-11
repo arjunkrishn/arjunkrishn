@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1080 540" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .text-main { fill: #111111; }
+      .text-sub { fill: #444444; }
+      .border-line { stroke: #111111; stroke-width: 1; }
+      .grid-line { stroke: #e0e0e0; stroke-width: 1; }
+      
+      @keyframes pulseTag {
+        0%, 100% { fill: #10b981; opacity: 1; }
+        50% { fill: #059669; opacity: 0.5; }
+      }
+
+      .dot-active {
+        animation: pulseTag 2s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="540" class="bg"/>
+
+  <!-- ================= SECTION 06: STACK ================= -->
+  <text x="24" y="32" font-size="22" class="text-main" font-weight="700">06</text>
+  <text x="70" y="32" font-size="13" class="text-main" font-weight="700" letter-spacing="2">STACK</text>
+  <text x="1056" y="32" font-size="12" class="text-sub" text-anchor="end">~/06-stack</text>
+  <line x1="24" y1="46" x2="1056" y2="46" class="border-line"/>
+
+  <g font-size="11.5" class="text-main">
+    <!-- Row 1: FIREWALLS & SECURITY -->
+    <text x="24" y="74" font-weight="700" letter-spacing="0.5">FIREWALLS &amp; SECURITY</text>
+    <text x="260" y="74">FortiGate Firewall Management &#183; IPsec VPN &#183; NAT &#183; VLAN &#183; IPS &#183; Web Filtering &#183; Application Control</text>
+    <line x1="24" y1="88" x2="1056" y2="88" class="grid-line"/>
+
+    <!-- Row 2: NETWORKING & PROTOCOLS -->
+    <text x="24" y="112" font-weight="700" letter-spacing="0.5">NETWORKING &amp; PROTOCOLS</text>
+    <text x="260" y="112">TCP/IP &#183; Wireshark &#183; Nmap &#183; Scapy &#183; Socket Programming</text>
+    <line x1="24" y1="126" x2="1056" y2="126" class="grid-line"/>
+
+    <!-- Row 3: PROGRAMMING & SCRIPTING -->
+    <text x="24" y="150" font-weight="700" letter-spacing="0.5">PROGRAMMING &amp; SCRIPTING</text>
+    <text x="260" y="150">Python &#183; Linux Shell / Bash &#183; SQL</text>
+    <line x1="24" y1="164" x2="1056" y2="164" class="grid-line"/>
+
+    <!-- Row 4: AI / ML & ANALYTICS -->
+    <text x="24" y="188" font-weight="700" letter-spacing="0.5">AI / ML &amp; ANALYTICS</text>
+    <text x="260" y="188">Scikit-learn &#183; Anomaly Detection &#183; NLTK &#183; TF-IDF &#183; CountVectorizer &#183; Streamlit</text>
+    <line x1="24" y1="202" x2="1056" y2="202" class="grid-line"/>
+
+    <!-- Row 5: TOOLS -->
+    <text x="24" y="226" font-weight="700" letter-spacing="0.5">DEVELOPMENT TOOLS</text>
+    <text x="260" y="226">Git &#183; GitHub &#183; Jupyter Notebook &#183; VS Code</text>
+  </g>
+
+  <line x1="24" y1="242" x2="1056" y2="242" class="border-line"/>
+
+  <!-- ================= SECTION 07: CERTIFICATIONS ================= -->
+  <text x="24" y="285" font-size="22" class="text-main" font-weight="700">07</text>
+  <text x="70" y="285" font-size="13" class="text-main" font-weight="700" letter-spacing="2">CERTIFICATIONS</text>
+  <text x="1056" y="285" font-size="12" class="text-sub" text-anchor="end">~/07-certs</text>
+  <line x1="24" y1="298" x2="1056" y2="298" class="border-line"/>
+
+  <!-- Certifications Grid (2 Columns) -->
+  <g font-size="11.5" class="text-main">
+    <!-- Col 1 -->
+    <circle cx="34" cy="331" r="3.5" class="dot-active"/>
+    <text x="46" y="335" font-weight="600">Junior Cybersecurity Analyst Career Path</text>
+
+    <circle cx="34" cy="371" r="3.5" class="dot-active"/>
+    <text x="46" y="375" font-weight="600">Endpoint Security <tspan font-weight="400" fill="#555">&#8212; Oracle Cloud Infrastructure</tspan></text>
+
+    <circle cx="34" cy="411" r="3.5" class="dot-active"/>
+    <text x="46" y="415" font-weight="600">Certified AI Foundations Associate <tspan font-weight="400" fill="#555">&#8212; Oracle</tspan></text>
+
+    <circle cx="34" cy="451" r="3.5" class="dot-active"/>
+    <text x="46" y="455" font-weight="600">Getting Started with Cybersecurity <tspan font-weight="400" fill="#555">&#8212; IBM</tspan></text>
+
+    <!-- Col 2 -->
+    <circle cx="560" cy="331" r="3.5" class="dot-active"/>
+    <text x="572" y="335" font-weight="600">Network Support and Security</text>
+
+    <circle cx="560" cy="371" r="3.5" class="dot-active"/>
+    <text x="572" y="375" font-weight="600">OCI Certified Foundations Associate <tspan font-weight="400" fill="#555">&#8212; Oracle</tspan></text>
+
+    <circle cx="560" cy="411" r="3.5" class="dot-active"/>
+    <text x="572" y="415" font-weight="600">Cyber Threat Management</text>
+
+    <circle cx="560" cy="451" r="3.5" class="dot-active"/>
+    <text x="572" y="455" font-weight="600">Oracle AI Database Certified Associate</text>
+  </g>
+
+  <line x1="24" y1="490" x2="1056" y2="490" class="border-line"/>
+</svg>
