@@ -29,7 +29,7 @@
 
   <!-- Bio Paragraph -->
   <g font-size="12" class="text-main">
-    <text x="24" y="80">Cybersecurity graduate (BCA, AIML specialization) from Vellore Institute of Technology, Chennai.</text>
+    <text x="24" y="80">Cybersecurity graduate (BCA, AIML specialization) from Vellore Institute of Technology.</text>
     <text x="24" y="100">Hands-on experience configuring FortiGate firewalls, IPsec VPNs, firewall policies, NAT, VLANs, and</text>
     <text x="24" y="120">monitoring security logs &#8212; backed by Python tooling for vulnerability scanning, packet analysis &amp; AI threat detection.</text>
   </g>
@@ -54,7 +54,7 @@
     <text x="160" y="255">BCA (AIML) &#8212; VIT Vellore &#183; 2023&#8211;2026 &#183; CGPA 7.67/10</text>
 
     <text x="680" y="255" font-weight="700" letter-spacing="1">LOCATION</text>
-    <text x="780" y="255">Cherthala, Kerala, India</text>
+    <text x="780" y="255">Kochi, Kerala, India</text>
     <line x1="24" y1="270" x2="1056" y2="270" class="grid-line"/>
 
     <!-- Row 4: LANGUAGES -->

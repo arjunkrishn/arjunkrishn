@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[`PORTFOLIO`](https://arjunportfolio.super.site) &nbsp;·&nbsp; [`RESUME`](mailto:arjunkb45@gmail.com) &nbsp;·&nbsp; [`LINKEDIN`](https://linkedin.com/in/arjunn100) &nbsp;·&nbsp; [`GITHUB`](https://github.com/arjunkrishn) &nbsp;·&nbsp; [`EMAIL`](mailto:arjunkb45@gmail.com)
+<a href="https://arjunportfolio.super.site" target="_blank" rel="noopener noreferrer">`PORTFOLIO`</a> &nbsp;·&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer">`RESUME`</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/arjunn100" target="_blank" rel="noopener noreferrer">`LINKEDIN`</a> &nbsp;·&nbsp; <a href="https://github.com/arjunkrishn" target="_blank" rel="noopener noreferrer">`GITHUB`</a> &nbsp;·&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer">`EMAIL`</a>
 
 </div>
 
@@ -50,6 +50,6 @@
 
 <div align="center">
 
-`EN` `TA` `HI` `ML` &nbsp;&nbsp;·&nbsp;&nbsp; [arjunkb45@gmail.com](mailto:arjunkb45@gmail.com) &nbsp;&nbsp;·&nbsp;&nbsp; Cherthala, Kerala, India
+`EN` `TA` `HI` `ML` &nbsp;&nbsp;·&nbsp;&nbsp; <a href="mailto:arjunkb45@gmail.com" target="_blank" rel="noopener noreferrer">arjunkb45@gmail.com</a> &nbsp;&nbsp;·&nbsp;&nbsp; Kochi, Kerala, India
 
 </div>

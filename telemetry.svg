@@ -7,53 +7,34 @@
       .border-line { stroke: #111111; stroke-width: 1; }
       .chart-line { stroke: #111111; stroke-width: 2; fill: none; }
       
-      /* Continuous Infinite Animations for Telemetry & Skill Distribution */
-      @keyframes pulseBar1 {
-        0%, 100% { width: 340px; opacity: 1; }
-        50% { width: 325px; opacity: 0.8; fill: #10b981; }
-      }
-      @keyframes pulseBar2 {
-        0%, 100% { width: 280px; opacity: 1; }
-        50% { width: 265px; opacity: 0.8; fill: #10b981; }
-      }
-      @keyframes pulseBar3 {
-        0%, 100% { width: 200px; opacity: 1; }
-        50% { width: 188px; opacity: 0.8; fill: #10b981; }
-      }
-      @keyframes pulseBar4 {
-        0%, 100% { width: 120px; opacity: 1; }
-        50% { width: 110px; opacity: 0.8; fill: #10b981; }
-      }
-      @keyframes pulseBar5 {
-        0%, 100% { width: 60px; opacity: 1; }
-        50% { width: 52px; opacity: 0.8; fill: #10b981; }
+      /* Robust CSS Animations using transform: scaleX() and opacity */
+      @keyframes barPulse {
+        0%, 100% { transform: scaleX(1); opacity: 1; fill: #111111; }
+        50% { transform: scaleX(0.88); opacity: 0.7; fill: #10b981; }
       }
 
-      @keyframes radarSweep {
-        0% { x1: 520; x2: 520; opacity: 0.2; }
-        50% { opacity: 0.8; stroke: #10b981; }
-        100% { x1: 1040; x2: 1040; opacity: 0.2; }
+      @keyframes dotPulse {
+        0%, 100% { r: 4px; fill: #111111; opacity: 1; }
+        50% { r: 7px; fill: #10b981; opacity: 0.8; }
       }
 
-      @keyframes pulseDot {
-        0%, 100% { r: 4px; fill: #111111; }
-        50% { r: 7px; fill: #10b981; }
+      @keyframes lineGlow {
+        0%, 100% { stroke: #111111; stroke-width: 2; }
+        50% { stroke: #10b981; stroke-width: 2.5; }
       }
 
-      .bar-1 { animation: pulseBar1 3s infinite ease-in-out; }
-      .bar-2 { animation: pulseBar2 3s infinite ease-in-out 0.3s; }
-      .bar-3 { animation: pulseBar3 3s infinite ease-in-out 0.6s; }
-      .bar-4 { animation: pulseBar4 3s infinite ease-in-out 0.9s; }
-      .bar-5 { animation: pulseBar5 3s infinite ease-in-out 1.2s; }
+      .bar-anim-1 { transform-origin: 24px 93px;  animation: barPulse 3.5s infinite ease-in-out; }
+      .bar-anim-2 { transform-origin: 24px 139px; animation: barPulse 3.5s infinite ease-in-out 0.4s; }
+      .bar-anim-3 { transform-origin: 24px 185px; animation: barPulse 3.5s infinite ease-in-out 0.8s; }
+      .bar-anim-4 { transform-origin: 24px 231px; animation: barPulse 3.5s infinite ease-in-out 1.2s; }
+      .bar-anim-5 { transform-origin: 24px 277px; animation: barPulse 3.5s infinite ease-in-out 1.6s; }
 
-      .sweep-line {
-        stroke: #10b981;
-        stroke-width: 1.5;
-        animation: radarSweep 3.5s infinite linear;
+      .chart-path-anim {
+        animation: lineGlow 3s infinite ease-in-out;
       }
 
       .chart-dot-active {
-        animation: pulseDot 2s infinite ease-in-out;
+        animation: dotPulse 2s infinite ease-in-out;
       }
     </style>
   </defs>
@@ -70,24 +51,24 @@
   <!-- Left: Skill Distribution -->
   <g font-size="12" class="text-main">
     <text x="24" y="78" font-weight="600">python &amp; security automation</text>
-    <rect x="24" y="88" height="14" fill="#111111" class="bar-1"/>
-    <text x="374" y="99" font-weight="700">34%</text>
+    <rect x="24" y="86" width="340" height="14" fill="#111111" class="bar-anim-1"/>
+    <text x="374" y="98" font-weight="700">34%</text>
 
     <text x="24" y="124" font-weight="600">fortigate &amp; network security</text>
-    <rect x="24" y="134" height="14" fill="#111111" class="bar-2"/>
-    <text x="314" y="145" font-weight="700">28%</text>
+    <rect x="24" y="132" width="280" height="14" fill="#111111" class="bar-anim-2"/>
+    <text x="314" y="144" font-weight="700">28%</text>
 
     <text x="24" y="170" font-weight="600">machine learning &amp; nlp threat models</text>
-    <rect x="24" y="180" height="14" fill="#111111" class="bar-3"/>
-    <text x="234" y="191" font-weight="700">20%</text>
+    <rect x="24" y="178" width="200" height="14" fill="#111111" class="bar-anim-3"/>
+    <text x="234" y="190" font-weight="700">20%</text>
 
     <text x="24" y="216" font-weight="600">protocols &#8212; TCP/IP / IPsec VPN / VLAN</text>
-    <rect x="24" y="226" height="14" fill="#111111" class="bar-4"/>
-    <text x="154" y="237" font-weight="700">12%</text>
+    <rect x="24" y="224" width="120" height="14" fill="#111111" class="bar-anim-4"/>
+    <text x="154" y="236" font-weight="700">12%</text>
 
     <text x="24" y="262" font-weight="600">linux, wireshark &amp; nmap</text>
-    <rect x="24" y="272" height="14" fill="#111111" class="bar-5"/>
-    <text x="94" y="283" font-weight="700">6%</text>
+    <rect x="24" y="270" width="60" height="14" fill="#111111" class="bar-anim-5"/>
+    <text x="94" y="282" font-weight="700">6%</text>
   </g>
 
   <line x1="480" y1="60" x2="480" y2="340" stroke="#e5e7eb" stroke-width="1"/>
@@ -103,11 +84,8 @@
     <line x1="520" y1="185" x2="1040" y2="185" stroke="#f0f0f0" stroke-width="1"/>
     <line x1="520" y1="140" x2="1040" y2="140" stroke="#f0f0f0" stroke-width="1"/>
 
-    <!-- Continuous Scanning Radar Line -->
-    <line x1="520" y1="90" x2="520" y2="230" class="sweep-line"/>
-
-    <!-- Trend line path -->
-    <path d="M 520 210 L 690 185 L 860 140 L 1010 100" class="chart-line"/>
+    <!-- Trend line path with continuous glow animation -->
+    <path d="M 520 210 L 690 185 L 860 140 L 1010 100" class="chart-line chart-path-anim"/>
 
     <!-- Data points -->
     <circle cx="520" cy="210" r="4" fill="#111111"/>
