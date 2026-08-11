@@ -8,8 +8,8 @@
         to { stroke-dashoffset: 0px; }
       }
 
-      @keyframes textGlow {
-        0%, 100% { fill: #111111; }
+      @keyframes blockPulse {
+        0%, 100% { fill: #10b981; }
         50%      { fill: #059669; }
       }
 
@@ -20,8 +20,8 @@
         animation: snakeOrbit 1.2s infinite linear;
       }
 
-      .arjun-header {
-        animation: textGlow 3s infinite ease-in-out;
+      .arjun-block {
+        animation: blockPulse 3s infinite ease-in-out;
       }
     </style>
   </defs>
@@ -33,45 +33,131 @@
   <text x="24" y="34" font-size="22" fill="#111111" font-weight="700">08</text>
   <text x="70" y="34" font-size="13" fill="#111111" font-weight="700" letter-spacing="2">CONTRIBUTIONS</text>
   <text x="1056" y="34" font-size="11" fill="#059669" text-anchor="end" font-weight="700" letter-spacing="1">
-    &#9654; LIVE ARJUN SNAKE CIRCUIT
+    &#9654; LIVE ARJUN SNAKE MATRIX
   </text>
   <line x1="24" y1="46" x2="1056" y2="46" stroke="#111111" stroke-width="1"/>
 
-  <!-- Background Matrix Accent Grid -->
-  <g transform="translate(64, 62)" opacity="0.2">
-    <g fill="#10b981">
-      <rect x="0" y="0" width="10" height="10" rx="2"/><rect x="20" y="0" width="10" height="10" rx="2"/><rect x="40" y="0" width="10" height="10" rx="2"/><rect x="60" y="0" width="10" height="10" rx="2"/><rect x="80" y="0" width="10" height="10" rx="2"/><rect x="100" y="0" width="10" height="10" rx="2"/><rect x="120" y="0" width="10" height="10" rx="2"/><rect x="140" y="0" width="10" height="10" rx="2"/><rect x="160" y="0" width="10" height="10" rx="2"/><rect x="180" y="0" width="10" height="10" rx="2"/><rect x="200" y="0" width="10" height="10" rx="2"/><rect x="220" y="0" width="10" height="10" rx="2"/><rect x="240" y="0" width="10" height="10" rx="2"/><rect x="260" y="0" width="10" height="10" rx="2"/><rect x="280" y="0" width="10" height="10" rx="2"/><rect x="300" y="0" width="10" height="10" rx="2"/><rect x="320" y="0" width="10" height="10" rx="2"/><rect x="340" y="0" width="10" height="10" rx="2"/><rect x="360" y="0" width="10" height="10" rx="2"/><rect x="380" y="0" width="10" height="10" rx="2"/><rect x="400" y="0" width="10" height="10" rx="2"/><rect x="420" y="0" width="10" height="10" rx="2"/><rect x="440" y="0" width="10" height="10" rx="2"/><rect x="460" y="0" width="10" height="10" rx="2"/><rect x="480" y="0" width="10" height="10" rx="2"/><rect x="500" y="0" width="10" height="10" rx="2"/><rect x="520" y="0" width="10" height="10" rx="2"/><rect x="540" y="0" width="10" height="10" rx="2"/><rect x="560" y="0" width="10" height="10" rx="2"/><rect x="580" y="0" width="10" height="10" rx="2"/><rect x="600" y="0" width="10" height="10" rx="2"/><rect x="620" y="0" width="10" height="10" rx="2"/><rect x="640" y="0" width="10" height="10" rx="2"/><rect x="660" y="0" width="10" height="10" rx="2"/><rect x="680" y="0" width="10" height="10" rx="2"/><rect x="700" y="0" width="10" height="10" rx="2"/><rect x="720" y="0" width="10" height="10" rx="2"/><rect x="740" y="0" width="10" height="10" rx="2"/><rect x="760" y="0" width="10" height="10" rx="2"/><rect x="780" y="0" width="10" height="10" rx="2"/><rect x="800" y="0" width="10" height="10" rx="2"/><rect x="820" y="0" width="10" height="10" rx="2"/><rect x="840" y="0" width="10" height="10" rx="2"/><rect x="860" y="0" width="10" height="10" rx="2"/><rect x="880" y="0" width="10" height="10" rx="2"/><rect x="900" y="0" width="10" height="10" rx="2"/><rect x="920" y="0" width="10" height="10" rx="2"/><rect x="940" y="0" width="10" height="10" rx="2"/>
-    </g>
-  </g>
-
-  <!-- Base Solid Orbit Track -->
-  <path d="M 160,145 C 160,60 350,60 540,60 C 730,60 920,60 920,145 C 920,230 730,230 540,230 C 350,230 160,230 160,145 Z" 
+  <!-- Smooth Flowing Green Snake Track wrapping around ARJUN block letters -->
+  <path d="M 320,145 C 320,60 430,60 540,60 C 650,60 760,60 760,145 C 760,230 650,230 540,230 C 430,230 320,230 320,145 Z" 
         fill="none" stroke="#111111" stroke-width="1" opacity="0.3"/>
 
-  <!-- Bulletproof Dual-Engine Flowing Green Snake Stream around ARJUN -->
-  <path d="M 160,145 C 160,60 350,60 540,60 C 730,60 920,60 920,145 C 920,230 730,230 540,230 C 350,230 160,230 160,145 Z" 
-        fill="none" class="snake-orbit-stream">
-    <animate attributeName="stroke-dashoffset" from="64" to="0" dur="1.2s" repeatCount="indefinite"/>
-  </path>
+  <path d="M 320,145 C 320,60 430,60 540,60 C 650,60 760,60 760,145 C 760,230 650,230 540,230 C 430,230 320,230 320,145 Z" 
+        fill="none" class="snake-orbit-stream"/>
 
-  <!-- Center Terminal Box -->
-  <rect x="340" y="90" width="400" height="110" fill="#ffffff" stroke="#111111" stroke-width="2" rx="4"/>
+  <!-- Centerpiece: ARJUN Built Entirely Out of Contribution Grid Blocks / Boxes -->
+  <!-- Matrix Origin: X=390, Y=95. Block Size: 11px x 11px, Gap: 4px (Step: 15px) -->
+  <g class="arjun-block" fill="#10b981">
+    <!-- Letter 'A' (Starts X=390) -->
+    <!-- Col 1 -->
+    <rect x="390" y="110" width="11" height="11" rx="2"/>
+    <rect x="390" y="125" width="11" height="11" rx="2"/>
+    <rect x="390" y="140" width="11" height="11" rx="2"/>
+    <rect x="390" y="155" width="11" height="11" rx="2"/>
+    <rect x="390" y="170" width="11" height="11" rx="2"/>
+    <rect x="390" y="185" width="11" height="11" rx="2"/>
+    <!-- Col 2 Top & Crossbar -->
+    <rect x="405" y="95" width="11" height="11" rx="2"/>
+    <rect x="405" y="140" width="11" height="11" rx="2"/>
+    <!-- Col 3 Top & Crossbar -->
+    <rect x="420" y="95" width="11" height="11" rx="2"/>
+    <rect x="420" y="140" width="11" height="11" rx="2"/>
+    <!-- Col 4 -->
+    <rect x="435" y="110" width="11" height="11" rx="2"/>
+    <rect x="435" y="125" width="11" height="11" rx="2"/>
+    <rect x="435" y="140" width="11" height="11" rx="2"/>
+    <rect x="435" y="155" width="11" height="11" rx="2"/>
+    <rect x="435" y="170" width="11" height="11" rx="2"/>
+    <rect x="435" y="185" width="11" height="11" rx="2"/>
 
-  <!-- Crisp Vector Text: ARJUN KRISHNA B -->
-  <g text-anchor="middle">
-    <text x="540" y="138" font-size="44" font-weight="900" fill="#111111" letter-spacing="8" class="arjun-header">ARJUN</text>
-    <text x="540" y="164" font-size="13.5" font-weight="700" fill="#059669" letter-spacing="3">KRISHNA B</text>
-    <text x="540" y="184" font-size="10.5" font-weight="600" fill="#555555" letter-spacing="1.5">CYBERSECURITY ANALYST &#183; 345 COMMITS IN 2026</text>
+    <!-- Letter 'R' (Starts X=465) -->
+    <!-- Col 1 -->
+    <rect x="465" y="95" width="11" height="11" rx="2"/>
+    <rect x="465" y="110" width="11" height="11" rx="2"/>
+    <rect x="465" y="125" width="11" height="11" rx="2"/>
+    <rect x="465" y="140" width="11" height="11" rx="2"/>
+    <rect x="465" y="155" width="11" height="11" rx="2"/>
+    <rect x="465" y="170" width="11" height="11" rx="2"/>
+    <rect x="465" y="185" width="11" height="11" rx="2"/>
+    <!-- Top & Mid bars -->
+    <rect x="480" y="95" width="11" height="11" rx="2"/>
+    <rect x="480" y="140" width="11" height="11" rx="2"/>
+    <rect x="485" y="155" width="11" height="11" rx="2"/>
+    <rect x="495" y="95" width="11" height="11" rx="2"/>
+    <rect x="495" y="140" width="11" height="11" rx="2"/>
+    <rect x="495" y="170" width="11" height="11" rx="2"/>
+    <!-- Right loop & leg -->
+    <rect x="510" y="110" width="11" height="11" rx="2"/>
+    <rect x="510" y="125" width="11" height="11" rx="2"/>
+    <rect x="510" y="185" width="11" height="11" rx="2"/>
+
+    <!-- Letter 'J' (Starts X=540) -->
+    <rect x="540" y="170" width="11" height="11" rx="2"/>
+    <rect x="555" y="185" width="11" height="11" rx="2"/>
+    <rect x="570" y="95" width="11" height="11" rx="2"/>
+    <rect x="570" y="185" width="11" height="11" rx="2"/>
+    <rect x="585" y="95" width="11" height="11" rx="2"/>
+    <rect x="585" y="110" width="11" height="11" rx="2"/>
+    <rect x="585" y="125" width="11" height="11" rx="2"/>
+    <rect x="585" y="140" width="11" height="11" rx="2"/>
+    <rect x="585" y="155" width="11" height="11" rx="2"/>
+    <rect x="585" y="170" width="11" height="11" rx="2"/>
+
+    <!-- Letter 'U' (Starts X=615) -->
+    <!-- Left Col -->
+    <rect x="615" y="95" width="11" height="11" rx="2"/>
+    <rect x="615" y="110" width="11" height="11" rx="2"/>
+    <rect x="615" y="125" width="11" height="11" rx="2"/>
+    <rect x="615" y="140" width="11" height="11" rx="2"/>
+    <rect x="615" y="155" width="11" height="11" rx="2"/>
+    <rect x="615" y="170" width="11" height="11" rx="2"/>
+    <!-- Bottom curve -->
+    <rect x="630" y="185" width="11" height="11" rx="2"/>
+    <rect x="645" y="185" width="11" height="11" rx="2"/>
+    <!-- Right Col -->
+    <rect x="660" y="95" width="11" height="11" rx="2"/>
+    <rect x="660" y="110" width="11" height="11" rx="2"/>
+    <rect x="660" y="125" width="11" height="11" rx="2"/>
+    <rect x="660" y="140" width="11" height="11" rx="2"/>
+    <rect x="660" y="155" width="11" height="11" rx="2"/>
+    <rect x="660" y="170" width="11" height="11" rx="2"/>
+
+    <!-- Letter 'N' (Starts X=690) -->
+    <!-- Col 1 -->
+    <rect x="690" y="95" width="11" height="11" rx="2"/>
+    <rect x="690" y="110" width="11" height="11" rx="2"/>
+    <rect x="690" y="125" width="11" height="11" rx="2"/>
+    <rect x="690" y="140" width="11" height="11" rx="2"/>
+    <rect x="690" y="155" width="11" height="11" rx="2"/>
+    <rect x="690" y="170" width="11" height="11" rx="2"/>
+    <rect x="690" y="185" width="11" height="11" rx="2"/>
+    <!-- Diagonal -->
+    <rect x="705" y="110" width="11" height="11" rx="2"/>
+    <rect x="720" y="130" width="11" height="11" rx="2"/>
+    <rect x="720" y="145" width="11" height="11" rx="2"/>
+    <rect x="735" y="165" width="11" height="11" rx="2"/>
+    <!-- Col 4 -->
+    <rect x="750" y="95" width="11" height="11" rx="2"/>
+    <rect x="750" y="110" width="11" height="11" rx="2"/>
+    <rect x="750" y="125" width="11" height="11" rx="2"/>
+    <rect x="750" y="140" width="11" height="11" rx="2"/>
+    <rect x="750" y="155" width="11" height="11" rx="2"/>
+    <rect x="750" y="170" width="11" height="11" rx="2"/>
+    <rect x="750" y="185" width="11" height="11" rx="2"/>
   </g>
 
-  <!-- Snake Head Nodes -->
-  <circle cx="160" cy="145" r="5" fill="#10b981"/>
-  <circle cx="920" cy="145" r="5" fill="#10b981"/>
+  <!-- Snake Head & Circuit Nodes -->
+  <circle cx="320" cy="145" r="5" fill="#10b981"/>
+  <circle cx="760" cy="145" r="5" fill="#10b981"/>
   <circle cx="540" cy="60" r="5" fill="#10b981"/>
   <circle cx="540" cy="230" r="5" fill="#10b981"/>
 
+  <!-- Subtitle Tag -->
+  <text x="540" y="215" font-size="10.5" font-weight="700" fill="#059669" text-anchor="middle" letter-spacing="3">
+    ARJUN KRISHNA B &#8212; CYBERSECURITY ANALYST &#183; 345 COMMITS IN 2026
+  </text>
+
   <!-- Bottom Bar -->
-  <text x="24" y="250" font-size="10.5" letter-spacing="1.5" fill="#111111" font-weight="600">ARJUN SECURITY MATRIX &#8212; GITHUB ACTIVITY CIRCUIT</text>
-  <text x="1056" y="250" font-size="10.5" letter-spacing="1.5" fill="#059669" text-anchor="end" font-weight="700">CONTINUOUS LOOP</text>
-  <line x1="24" y1="262" x2="1056" y2="262" stroke="#111111" stroke-width="1"/>
+  <text x="24" y="255" font-size="10.5" letter-spacing="1.5" fill="#111111" font-weight="600">ARJUN BLOCK MATRIX &#8212; GITHUB ACTIVITY CIRCUIT</text>
+  <text x="1056" y="255" font-size="10.5" letter-spacing="1.5" fill="#059669" text-anchor="end" font-weight="700">CONTINUOUS LOOP</text>
+  <line x1="24" y1="266" x2="1056" y2="266" stroke="#111111" stroke-width="1"/>
 </svg>
